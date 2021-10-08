@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleats>
+  <empleat numero="1">
+    <nom>Andreu</nom>
+    <departament>10</departament>
+    <edat>32</edat>
+    <sou>1000.0</sou>
+  </empleat>
+  <empleat numero="2">
+    <nom>Bernat</nom>
+    <departament>20</departament>
+    <edat>28</edat>
+    <sou>1200.0</sou>
+  </empleat>
+  <empleat numero="3">
+    <nom>Clàudia</nom>
+    <departament>10</departament>
+    <edat>26</edat>
+    <sou>1100.0</sou>
+  </empleat>
+  <empleat numero="4">
+    <nom>Damià</nom>
+    <departament>10</departament>
+    <edat>40</edat>
+    <sou>1500.0</sou>
+  </empleat>
+</empleats>

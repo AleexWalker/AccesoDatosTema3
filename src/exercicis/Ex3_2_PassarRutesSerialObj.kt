@@ -15,11 +15,17 @@ fun main(args: Array<String>) {
         val desnivellAcumulat = ficheroLectura.readInt()
 
         val numeroPuntos = ficheroLectura.readInt()
+        val listaPuntos : MutableList<PuntGeo> = arrayListOf()
+
         for (i in 1..numeroPuntos){
             val nombre = ficheroLectura.readUTF()
             val latitud = ficheroLectura.readDouble()
             val longitud = ficheroLectura.readDouble()
+            listaPuntos.add(PuntGeo(nombre, Coordenades(latitud,longitud)))
         }
-        ficheroEscrituraObjeto.writeObject(nombreRuta, desnivell, desnivellAcumulat, )
+        val e = Ruta(nombreRuta, desnivell, desnivellAcumulat, listaPuntos)
+        ficheroEscrituraObjeto.writeObject(e)
+        ficheroEscrituraObjeto.close()
+        //ficheroEscrituraObjeto.writeObject(nombreRuta, desnivell, desnivellAcumulat, )
     }
 }

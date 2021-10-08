@@ -36,27 +36,21 @@ class Ruta (var nom: String, var desnivell: Int, var desnivellAcumulat: Int, var
     }
 
     fun mostrarRuta() {
-        val fichero = ObjectInputStream(FileInputStream("Rutes.obj"))
-
+        val ficheroLecturaObjeto = ObjectInputStream(FileInputStream("Rutes.obj"))
         try {
-            while (true) {
-                val lectorCoordenades = fichero.readObject() as Coordenades
-                val lectorGeo = fichero.readObject() as PuntGeo
-                var contador = 1
-
-                println("Ruta: $nom")
-                println("Desnivell: $desnivell")
-                println("Desnivell Acumulat: $desnivellAcumulat")
-
-                val numeroPuntos = llistaDePunts.size
-                println("Tiene $numeroPuntos puntos")
-                while (true) {
-                    println("Punt $contador: " + lectorGeo.nom + " (" + lectorCoordenades.latitud + lectorCoordenades.longitud + ")")
-                    contador++
+            while (true){
+                val lectura = ficheroLecturaObjeto.readObject() as Ruta
+                println("Nombre: " + lectura.nom)
+                println("Desnivel: " + lectura.desnivell)
+                println("Desnivel Acumulado: " + lectura.desnivellAcumulat)
+                val puntos = lectura.llistaDePunts
+                for (i in 1..puntos.lastIndex){
+                    println("\tNombre Punto: " + lectura.getPuntNom(i) + " (" + lectura.getPuntLatitud(i) + ") "+ " (" + lectura.getPuntLongitud(i) + ")")
                 }
+                println("\n")
             }
-        } catch (eof: EOFException) {
-            fichero.close()
+        } catch (eof : EOFException){
+            ficheroLecturaObjeto.close()
         }
     // Aquest és el mètode que heu d'implementar vosaltres
     }
