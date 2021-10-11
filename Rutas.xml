@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Rutas>
+  <Ruta>
+    <Nombre>Pujada a Penyagolosa</Nombre>
+    <Desnivel>530</Desnivel>
+    <DesnivelAcumulado>530</DesnivelAcumulado>
+    <Puntos>
+      <Punto>
+        <NombrePunto>Sant Joan</NombrePunto>
+        <Latitud>40.251036</Latitud>
+        <Longitud>-0.354223</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Encreuament</NombrePunto>
+        <Latitud>40.25156</Latitud>
+        <Longitud>-0.352507</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Barranc de la Pegunta</NombrePunto>
+        <Latitud>40.247318</Latitud>
+        <Longitud>-0.351713</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>El Corralico</NombrePunto>
+        <Latitud>40.231708</Latitud>
+        <Longitud>-0.348859</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Penyagolosa</NombrePunto>
+        <Latitud>40.222632</Latitud>
+        <Longitud>-0.350339</Longitud>
+      </Punto>
+    </Puntos>
+  </Ruta>
+  <Ruta>
+    <Nombre>La Magdalena</Nombre>
+    <Desnivel>51</Desnivel>
+    <DesnivelAcumulado>84</DesnivelAcumulado>
+    <Puntos>
+      <Punto>
+        <NombrePunto>Primer Molí</NombrePunto>
+        <Latitud>39.99385</Latitud>
+        <Longitud>-0.032941</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Segon Molí</NombrePunto>
+        <Latitud>39.99628</Latitud>
+        <Longitud>-0.029427</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Caminàs</NombrePunto>
+        <Latitud>40.00513</Latitud>
+        <Longitud>-0.022569</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Riu Sec</NombrePunto>
+        <Latitud>40.006765</Latitud>
+        <Longitud>-0.02237</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Sant Roc</NombrePunto>
+        <Latitud>40.017906</Latitud>
+        <Longitud>-0.02289</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>Explanada</NombrePunto>
+        <Latitud>40.034048</Latitud>
+        <Longitud>-0.00633</Longitud>
+      </Punto>
+      <Punto>
+        <NombrePunto>La Magdalena</NombrePunto>
+        <Latitud>40.034519</Latitud>
+        <Longitud>-0.005856</Longitud>
+      </Punto>
+    </Puntos>
+  </Ruta>
+</Rutas>

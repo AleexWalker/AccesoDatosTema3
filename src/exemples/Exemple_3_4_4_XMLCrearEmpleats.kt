@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
             emp.appendChild(dep)
 
             val edat = doc.createElement("edat")
-            edat.setTextContent(e.edat.toString())
+            edat.textContent = e.edat.toString()
             emp.appendChild(edat)
 
             val sou = doc.createElement("sou");
