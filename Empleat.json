@@ -1,0 +1,8 @@
+{ "empleat" :
+  { "num": 1 ,
+    "nom": "Andreu" ,
+    "departament": 10 ,
+    "edat": 32 ,
+    "sou": 1000.0
+  }
+}

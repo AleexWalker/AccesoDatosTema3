@@ -1,0 +1,626 @@
+[
+  {
+    "ocupacion": [
+      {
+        "id": "01",
+        "punto": "UJI - FCHS",
+        "puestos": 28,
+        "ocupados": 9,
+        "latitud": "39.99533",
+        "longitud": "-0.06999",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "02",
+        "punto": "ESTACIÃ³N DE FERROCARRIL Y AUTOBUSES",
+        "puestos": 28,
+        "ocupados": 5,
+        "latitud": "39.98765",
+        "longitud": "-0.05281",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "03",
+        "punto": "COLÃ³N",
+        "puestos": 14,
+        "ocupados": 1,
+        "latitud": "39.98634",
+        "longitud": "-0.036793",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "04",
+        "punto": "PASEO BUENAVISTA-GRAO",
+        "puestos": 14,
+        "ocupados": 5,
+        "latitud": "39.97346",
+        "longitud": "0.01465",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "05",
+        "punto": "HOSPITAL GENERAL",
+        "puestos": 17,
+        "ocupados": 2,
+        "latitud": "40.00162",
+        "longitud": "-0.04175",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "06",
+        "punto": "PLAZA DE LA LIBERTAD",
+        "puestos": 14,
+        "ocupados": 3,
+        "latitud": "39.97737",
+        "longitud": "-0.04714",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "07",
+        "punto": "PLAZA TEODORO IZQUIERDO",
+        "puestos": 14,
+        "ocupados": 6,
+        "latitud": "39.99475",
+        "longitud": "-0.0372",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "08",
+        "punto": "PLAZA PRIMER MOLÃ­",
+        "puestos": 14,
+        "ocupados": 8,
+        "latitud": "39.99187",
+        "longitud": "-0.03348",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "09",
+        "punto": "PATRONAT DESPORTS",
+        "puestos": 14,
+        "ocupados": 0,
+        "latitud": "39.98769",
+        "longitud": "-0.02649",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "10",
+        "punto": "PLAZA DOCTOR MARAÃ±Ã³N",
+        "puestos": 22,
+        "ocupados": 12,
+        "latitud": "39.97953",
+        "longitud": "-0.03475",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "11",
+        "punto": "PLAZA JUEZ BORRULL",
+        "puestos": 25,
+        "ocupados": 6,
+        "latitud": "39.98379",
+        "longitud": "-0.03532",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "12",
+        "punto": "ESCUELA OFICIAL DE IDIOMAS",
+        "puestos": 14,
+        "ocupados": 2,
+        "latitud": "39.99245",
+        "longitud": "-0.06024",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "13",
+        "punto": "AVDA. BARCELONA - ANTIGUA ESTACIÃ³N",
+        "puestos": 27,
+        "ocupados": 3,
+        "latitud": "39.98764",
+        "longitud": "-0.04746",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "14",
+        "punto": "PLAZA MAESTRAZGO",
+        "puestos": 13,
+        "ocupados": 2,
+        "latitud": "39.98957",
+        "longitud": "-0.04032",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "15",
+        "punto": "HUERTO SOGUEROS",
+        "puestos": 16,
+        "ocupados": 3,
+        "latitud": "39.98667",
+        "longitud": "-0.04087",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "16",
+        "punto": "HOSPITAL PROVINCIAL",
+        "puestos": 13,
+        "ocupados": 0,
+        "latitud": "39.98485",
+        "longitud": "-0.04489",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "17",
+        "punto": "PLAZA DEL REAL",
+        "puestos": 10,
+        "ocupados": 0,
+        "latitud": "39.98465",
+        "longitud": "-0.04063",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "18",
+        "punto": "MUSEO BELLAS ARTES",
+        "puestos": 15,
+        "ocupados": 6,
+        "latitud": "39.98289",
+        "longitud": "-0.03068",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "19",
+        "punto": "PLANETARIO",
+        "puestos": 14,
+        "ocupados": 5,
+        "latitud": "39.97885",
+        "longitud": "0.02225",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "20",
+        "punto": "PLAZA MURALLA LIBERAL",
+        "puestos": 14,
+        "ocupados": 1,
+        "latitud": "39.98841",
+        "longitud": "-0.03344",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "21",
+        "punto": "PISCINA OLÃ­MPICA",
+        "puestos": 28,
+        "ocupados": 9,
+        "latitud": "39.98133",
+        "longitud": "-0.06386",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "22",
+        "punto": "POLIESPORTIU CIUTAT DE CASTELLÃ³",
+        "puestos": 14,
+        "ocupados": 10,
+        "latitud": "39.97382",
+        "longitud": "-0.05599",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "23",
+        "punto": "PASEO DE LA UNIVERSIDAD",
+        "puestos": 13,
+        "ocupados": 2,
+        "latitud": "39.99113",
+        "longitud": "-0.0578",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "24",
+        "punto": "ALCORA",
+        "puestos": 14,
+        "ocupados": 1,
+        "latitud": "39.98708",
+        "longitud": "-0.05869",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "25",
+        "punto": "CHENCHO",
+        "puestos": 16,
+        "ocupados": 3,
+        "latitud": "40.00951",
+        "longitud": "-0.0445",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "26",
+        "punto": "DONOSO CORTES",
+        "puestos": 14,
+        "ocupados": 5,
+        "latitud": "39.99198",
+        "longitud": "-0.04355",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "27",
+        "punto": "RIO ADRA",
+        "puestos": 14,
+        "ocupados": 5,
+        "latitud": "39.979",
+        "longitud": "-0.05256",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "28",
+        "punto": "PLAZA BOTANICO CALDUCH",
+        "puestos": 14,
+        "ocupados": 3,
+        "latitud": "39.97909",
+        "longitud": "-0.04241",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "29",
+        "punto": "PARQUE GEOLOGO JOSÃ© ROYO",
+        "puestos": 16,
+        "ocupados": 7,
+        "latitud": "39.97808",
+        "longitud": "-0.03936",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "30",
+        "punto": "PLAZA FERNANDO HERRERO TEJEDOR",
+        "puestos": 13,
+        "ocupados": 1,
+        "latitud": "39.98835",
+        "longitud": "-0.03015",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "31",
+        "punto": "GINJOLS",
+        "puestos": 14,
+        "ocupados": 6,
+        "latitud": "39.98173",
+        "longitud": "-0.02599",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "32",
+        "punto": "AVDA. FERRANDIS SALVADOR",
+        "puestos": 16,
+        "ocupados": 5,
+        "latitud": "39.99362",
+        "longitud": "0.02619",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "33",
+        "punto": "AVDA. SOS BAYNAT",
+        "puestos": 24,
+        "ocupados": 14,
+        "latitud": "39.99269",
+        "longitud": "-0.06441",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "34",
+        "punto": "AVDA. DEL REY",
+        "puestos": 13,
+        "ocupados": 8,
+        "latitud": "39.98722",
+        "longitud": "-0.03982",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "35",
+        "punto": "RIO NILO",
+        "puestos": 11,
+        "ocupados": 3,
+        "latitud": "39.97488",
+        "longitud": "-0.03495",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "36",
+        "punto": "TOMBATOSSALS",
+        "puestos": 20,
+        "ocupados": 7,
+        "latitud": "39.99174",
+        "longitud": "-0.030646",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "37",
+        "punto": "PLAZA CARDONA VIVES",
+        "puestos": 11,
+        "ocupados": 0,
+        "latitud": "39.98577",
+        "longitud": "-0.03526",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "38",
+        "punto": "PASEO MORELLA",
+        "puestos": 14,
+        "ocupados": 1,
+        "latitud": "39.98844",
+        "longitud": "-0.04674",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "39",
+        "punto": "PARQUE DEL OESTE",
+        "puestos": 14,
+        "ocupados": 3,
+        "latitud": "39.98038",
+        "longitud": "-0.04646",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "40",
+        "punto": "AV. DEL MAR",
+        "puestos": 15,
+        "ocupados": 1,
+        "latitud": "39.98490",
+        "longitud": "-0.02964",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "41",
+        "punto": "PLAZA LA PAZ",
+        "puestos": 14,
+        "ocupados": 3,
+        "latitud": "39.98384",
+        "longitud": "-0.03784",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "42",
+        "punto": "AVDA VALL D`UXO-CARDENAL COSTA",
+        "puestos": 16,
+        "ocupados": 2,
+        "latitud": "39.99140",
+        "longitud": "-0.04929",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "43",
+        "punto": "FERNANDO EL CATÃ³LICO",
+        "puestos": 15,
+        "ocupados": 9,
+        "latitud": "39.97988",
+        "longitud": "-0.03055",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "44",
+        "punto": "SAN ROQUE",
+        "puestos": 16,
+        "ocupados": 8,
+        "latitud": "39.99131",
+        "longitud": "-0.03639",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "45",
+        "punto": "GRAN VIA",
+        "puestos": 16,
+        "ocupados": 5,
+        "latitud": "39.98255",
+        "longitud": "-0.04962",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "46",
+        "punto": "UJI - ESTCE",
+        "puestos": 25,
+        "ocupados": 10,
+        "latitud": "39.99297",
+        "longitud": "-0.06722",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "47",
+        "punto": "UJI - FCJE",
+        "puestos": 13,
+        "ocupados": 2,
+        "latitud": "39.99480",
+        "longitud": "-0.06707",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "48",
+        "punto": "PLAZA CLAVE",
+        "puestos": 14,
+        "ocupados": 3,
+        "latitud": "39.98883",
+        "longitud": "-0.03745",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "49",
+        "punto": "CASAL JOVE",
+        "puestos": 10,
+        "ocupados": 5,
+        "latitud": "39.97216",
+        "longitud": "0.01089",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "50",
+        "punto": "AVDA. VALENCIA (GRUPO LIDÃ³N)",
+        "puestos": 15,
+        "ocupados": 1,
+        "latitud": "39.97483",
+        "longitud": "-0.04987",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "51",
+        "punto": "SAN AGUSTÃ­N",
+        "puestos": 9,
+        "ocupados": 2,
+        "latitud": "40.00071",
+        "longitud": "-0.04633",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "52",
+        "punto": "AV. DEL MAR - RECINTO DE FERIAS",
+        "puestos": 12,
+        "ocupados": 1,
+        "latitud": "39.98304",
+        "longitud": "-0.022241",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "53",
+        "punto": "FAROLA",
+        "puestos": 14,
+        "ocupados": 2,
+        "latitud": "39.98771",
+        "longitud": "-0.042991",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "54",
+        "punto": "MASET BLAU",
+        "puestos": 12,
+        "ocupados": 1,
+        "latitud": "39.98632",
+        "longitud": "-0.05513",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "55",
+        "punto": "BICICAS",
+        "puestos": 6,
+        "ocupados": 2,
+        "latitud": "39.99734",
+        "longitud": "-0.039769",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "56",
+        "punto": "TIRANT LO BLANCH - PINAR",
+        "puestos": 13,
+        "ocupados": 5,
+        "latitud": "39.98208",
+        "longitud": "0.016622",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "57",
+        "punto": "GRUPO LOURDES",
+        "puestos": 12,
+        "ocupados": 3,
+        "latitud": "39.96852",
+        "longitud": "-0.063641",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "58",
+        "punto": "PLAZA SEQUIOL",
+        "puestos": 16,
+        "ocupados": 1,
+        "latitud": "39.97834",
+        "longitud": "-0.042267",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "59",
+        "punto": "UJI - FCS",
+        "puestos": 9,
+        "ocupados": 3,
+        "latitud": "39.99294",
+        "longitud": "-0.070305",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "60",
+        "punto": "JAIME I",
+        "puestos": 12,
+        "ocupados": 3,
+        "latitud": "39.99795",
+        "longitud": "-0.03678",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "61",
+        "punto": "RIO NERVIÃ³N",
+        "puestos": 12,
+        "ocupados": 5,
+        "latitud": "39.97432",
+        "longitud": "-0.041122",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      },
+      {
+        "id": "62",
+        "punto": "PUENTE EUROPA",
+        "puestos": 15,
+        "ocupados": 6,
+        "latitud": "39.98815",
+        "longitud": "-0.063148",
+        "porcentajeAltaOcupacion": "80",
+        "porcentajeBajaOcupacion": "20"
+      }
+    ]
+  }
+]
