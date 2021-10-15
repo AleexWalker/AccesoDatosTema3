@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
             for (i in lectura.llistaDePunts) {
                 val puntos = documento.createElement("Punto")
 
-                val nombrePunto = documento.createElement("NombrePunto")
+                val nombrePunto = documento.createElement("nombre")
                 nombrePunto.appendChild(documento.createTextNode(lectura.getPuntNom(lectura.llistaDePunts.indexOf(i))))
                 puntos.appendChild(nombrePunto)
 

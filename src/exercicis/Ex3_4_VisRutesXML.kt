@@ -15,8 +15,9 @@ class Finestra : JFrame() {
         val documento = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse("Rutas.xml")
         val raiz = documento.documentElement
 
-        val rutaConTodas = raiz.getElementsByTagName("Ruta")
-        val puntos = raiz.getElementsByTagName("Punto")
+        val ruta = raiz.getElementsByTagName("Ruta")
+        val puntos = raiz.getElementsByTagName("Puntos")
+        val punto = raiz.getElementsByTagName("Punto")
 
         defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         setTitle("Punts d'una ruta")
@@ -30,8 +31,8 @@ class Finestra : JFrame() {
 
         val llistaRutes = arrayListOf<String>()
         // sentències per a omplir l'ArrayList anterior amb el nom de les rutes
-        for (i in 0 until rutaConTodas.length){
-            val elemento = rutaConTodas.item(i) as Element
+        for (i in 0 until ruta.length){
+            val elemento = ruta.item(i) as Element
             llistaRutes.add(elemento.getElementsByTagName("Nombre").item(0).textContent)
         }
 
@@ -45,15 +46,16 @@ class Finestra : JFrame() {
         combo.addActionListener{
             // accions quan s'ha seleccionat un element del combobox,
             // i que han de consistir en omplir el JTextArea
-            val ruta = rutaConTodas.item(combo.selectedIndex) as Element
+            area.text = " "
+            val puntos = ruta.item(combo.selectedIndex) as Element
+            val listaPuntos = puntos.getElementsByTagName("Punto")
 
-            if (ruta.equals(1)) {
-                for (i in 1..puntos.length)
-                    area.append(puntos.item(i).toString())
-            }
-            if (ruta.equals(2)) {
-                for (i in 1..puntos.length)
-                    area.append(puntos.item(i).toString())
+            for (i in 0 until listaPuntos.length) {
+
+                val punto = listaPuntos.item(i) as Element
+                area.text += punto.getElementsByTagName("nombre").item(0).textContent + ": ("
+                area.text += punto.getElementsByTagName("Latitud").item(0).textContent + ") ("
+                area.text += punto.getElementsByTagName("Longitud").item(0).textContent + ")\n"
             }
         }
     }

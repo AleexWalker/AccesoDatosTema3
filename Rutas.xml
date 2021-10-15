@@ -6,27 +6,27 @@
     <DesnivelAcumulado>530</DesnivelAcumulado>
     <Puntos>
       <Punto>
-        <NombrePunto>Sant Joan</NombrePunto>
+        <nombre>Sant Joan</nombre>
         <Latitud>40.251036</Latitud>
         <Longitud>-0.354223</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Encreuament</NombrePunto>
+        <nombre>Encreuament</nombre>
         <Latitud>40.25156</Latitud>
         <Longitud>-0.352507</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Barranc de la Pegunta</NombrePunto>
+        <nombre>Barranc de la Pegunta</nombre>
         <Latitud>40.247318</Latitud>
         <Longitud>-0.351713</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>El Corralico</NombrePunto>
+        <nombre>El Corralico</nombre>
         <Latitud>40.231708</Latitud>
         <Longitud>-0.348859</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Penyagolosa</NombrePunto>
+        <nombre>Penyagolosa</nombre>
         <Latitud>40.222632</Latitud>
         <Longitud>-0.350339</Longitud>
       </Punto>
@@ -38,37 +38,37 @@
     <DesnivelAcumulado>84</DesnivelAcumulado>
     <Puntos>
       <Punto>
-        <NombrePunto>Primer Molí</NombrePunto>
+        <nombre>Primer Molí</nombre>
         <Latitud>39.99385</Latitud>
         <Longitud>-0.032941</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Segon Molí</NombrePunto>
+        <nombre>Segon Molí</nombre>
         <Latitud>39.99628</Latitud>
         <Longitud>-0.029427</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Caminàs</NombrePunto>
+        <nombre>Caminàs</nombre>
         <Latitud>40.00513</Latitud>
         <Longitud>-0.022569</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Riu Sec</NombrePunto>
+        <nombre>Riu Sec</nombre>
         <Latitud>40.006765</Latitud>
         <Longitud>-0.02237</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Sant Roc</NombrePunto>
+        <nombre>Sant Roc</nombre>
         <Latitud>40.017906</Latitud>
         <Longitud>-0.02289</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>Explanada</NombrePunto>
+        <nombre>Explanada</nombre>
         <Latitud>40.034048</Latitud>
         <Longitud>-0.00633</Longitud>
       </Punto>
       <Punto>
-        <NombrePunto>La Magdalena</NombrePunto>
+        <nombre>La Magdalena</nombre>
         <Latitud>40.034519</Latitud>
         <Longitud>-0.005856</Longitud>
       </Punto>
